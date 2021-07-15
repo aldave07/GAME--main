@@ -148,7 +148,7 @@ textarea {
   }
   .modal-content textarea {
     font-size: 30px;
-    margin-top: 200px;
+    margin-top: 27vh;
   }
   .choice{
     display: block;
@@ -159,15 +159,15 @@ textarea {
     width: 50%;
   }
   .choice input{
-      height: 20px;
-      width: 20px;
-  }
+    height: 2vh;
+    width: 2vw;
+}
   .choice label{
       font-size: 20px;
       vertical-align: 0.20em;
   }
   .choice-button{
-    margin-top: 20px;
+    margin-top: 2vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,8 +208,8 @@ textarea {
   .modal-content label{
     display: block;
     margin-top: 30vh;
-    margin-left: 10px;
-    margin-bottom: 30px;
+    margin-left: 1vw;
+    margin-bottom: 3vh;
   }
   #name{
     font-size: 70px;
@@ -475,6 +475,7 @@ textarea {
     }
     .choice{
       margin-left: 27vw;
+      font-size: 15px;
     }
    }
    @media (min-width: 740px) and (max-width: 839px) {
@@ -484,6 +485,9 @@ textarea {
     .choice{
       margin-left: 27vw;
     }
+    .choice label{
+      font-size: 14px;
+    }
    }
    @media (min-width: 640px) and (max-width: 739px) {
     .modal-content textarea {
@@ -491,6 +495,10 @@ textarea {
     }
     .choice{
       margin-left: 27vw;
+      
+    }
+    .choice label{
+      font-size: 13px;
     }
    }
    @media (min-width: 540px) and (max-width: 639px) {
@@ -499,6 +507,10 @@ textarea {
     }
     .choice{
       margin-left: 27vw;
+     
+    }
+    .choice label{
+      font-size: 12px;
     }
    }
    @media (min-width: 440px) and (max-width: 539px) {
@@ -507,6 +519,10 @@ textarea {
     }
     .choice{
       margin-left: 27vw;
+      
+    }
+    .choice label{
+      font-size: 11px;
     }
    }
    @media (min-width: 360px) and (max-width: 439px) {
@@ -515,5 +531,9 @@ textarea {
     }
     .choice{
       margin-left: 27vw;
+     
+    }
+    .choice label{
+      font-size: 11px;
     }
    }
